@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 100%;
+    height: 100%;
+    background-image: url(MacBook\ Pro\ -\ 4.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.navbar{
+    width:100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 110px;
+    cursor: pointer;
+}
+
+.instagram{
+    width: 40px;
+    cursor: pointer;
+}
+
+.cdescription {
+    position:absolute; 
+    width:100%; 
+    top:100%; 
+    height: 100px;
+}
+
+
+.embarkdes{
+    padding-bottom: 130px;
+}
+
+.whatisemb {
+    padding-left: 250px;
+    padding-top: 130px;
+    padding-right: 400px;
+}
+
+.whatisemb h1{
+    color: #5DABE2;
+    font-family: poppins;
+}
+
+.whatisemb p{
+    padding-top: 15px;
+}
+
+.column{
+    padding-top: 100px;
+    padding-left: 250px;
+}
+
+.row h2{
+    color: #5DABE2;
+    font-family: poppins;
+    padding-bottom: 15px;
+}
+
+li{
+    padding-bottom: 10px;
+}
+
+.email{
+    background: #F7EDD5;
+    padding-left: 250px;
+    padding-top: 130px;
+    padding-right: 400px;
+    padding-bottom: 130px;
+}
+
+.email h1{
+    font-family: poppins;
+}
+
+.email p{
+    padding-top: 15px;
+}
+
+input{
+    border-radius: 10px;
+    width: 400px;
+    height: 55px;
+    border: 0px;
+    padding: 0 20px;
+    box-sizing:border-box;
+
+}
+
+.button{
+    background-color: #5DABE2;
+    height: 55px;
+    width: 130px;
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 0px 28px;
+    transition: 0.5s;
+}
+
+.email button:hover{
+    background-color: #ffffff;
+    color: #5DABE2;
+}
+
+.footer{
+    background-color: #2f5e90;
+    color: white;
+}
+
+.footer-container{
+    padding-left: 250px;
+    padding-top: 130px;
+    padding-right: 0px;
+    padding-bottom: 130px;
+
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer ul{
+    list-style: none;
+}
+
+.footer-column{
+    padding: 0 30px;
+}
+
+.footer-column li{
+    padding-top: 0px;
+}
+
+.footer a{
+    color: white;
+}
